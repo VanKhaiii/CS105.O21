@@ -30,9 +30,9 @@
  ### Giới thiệu đề tài
 “Fake Subway Surfer” là một đồ án trò chơi mô phỏng lại trò chơi ăn khách trên điện thoại (Subway Surfer).  Các đối tượng trong game như nhân vật chính, chướng ngại vật và vật phẩm đặc biệt trong môi trường 3D được tạo ra bằng ngôn ngữ lập trình JavaScript và thư viện ThreeJs 
 
- - Slide báo cáo; [Final Slide](https://github.com/VanKhaiii/CS221.O11/blob/main/Final%20Project/Documents/CS221_Slide.pptx)
+ - Slide báo cáo; [Final Slide](https://github.com/VanKhaiii/CS105.O21/blob/main/Final%20Project/Final%20Report.pptx)
 
-<img src = "https://github.com/VanKhaiii/CS337.O11/blob/main/Images/image.webp">
+<img src = "https://github.com/VanKhaiii/CS105.O21/blob/main/Images/image.png">
 <!-- Footer -->
 <p align='center'>Copyright © 2023 - Trương Văn Khải</p>
 
