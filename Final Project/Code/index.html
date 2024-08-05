@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS105.O21 - Fake Subway Surfer</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <canvas id="glcanvas"></canvas>
+
+    <div class="modal-box">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class='game_title'>Subway Surfer Fake</p>
+            <p class="game_score"></p>
+    
+            <select class="point-of-view">
+              <option value="3">Third</option>
+              <option value="1">First</option>
+            </select>
+            <p class="start-button" onmouseover="">Start</p>
+
+            <p class="restart-button" onmouseover="">Play Again</p>
+          </div>
+        </div>
+    </div>
+    
+    <div class="score-box">
+        <h1>SCORES: <span class="score-content">0</span></h1>
+    </div>
+</body>
+
+<script src="src/js/main.js" type="module"></script>
+</html>

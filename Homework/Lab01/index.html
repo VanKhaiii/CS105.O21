@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21520274 - Trương Văn Khải - Lab01 - CS105</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="heading">
+            <h1 class="title">Raster Algorithm</h1>
+            <h3 class="author">21520274 - UIT</h3>
+        </div>
+        <p class="hint">
+        Người dùng click chọn điểm bắt đầu và điểm kết thúc để vẽ đường thẳng hay đường tròn.
+        Chọn thuật toán trong menu option. 
+        <br>Bấm nút ESC hay Reset để vẽ lại từ đầu.</br>
+        </p>
+    
+        <div class="main-container">
+            <canvas id="canvas">
+            </canvas>
+        </div>
+    
+        <div class="buttons">
+            <button id="reset__">
+                Reset
+            </button>
+        </div>
+
+        <!-- Menu -->
+        <div class="menu">
+            <label for="algorithm">Choose an algorithm:</label>
+            <select id="algorithm">
+                <option value="dda">DDA Algorithm</option>
+                <option value="bresenham">Bresenham's Algorithm</option>
+                <option value="midpoint">Midpoint Algorithm</option>
+            </select>
+        </div>
+        <!-- End of Menu -->
+        
+        <script type="text/javascript" src='src/midpoint.js'></script>    
+    </div>
+    
+</body>
+</html>
